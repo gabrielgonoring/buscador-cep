@@ -1,6 +1,6 @@
-# Do que se trata
+# Do que se trata?
 
-Buscador de endereços desenvolvido em react. As fontes dos dados são obtidos apartir da api da https://viacep.com.br/
+Buscador de endereços desenvolvido em react. Os dados são obtidos apartir da api da https://viacep.com.br/
 
 # O que possue?
 
