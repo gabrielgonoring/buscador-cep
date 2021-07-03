@@ -5,7 +5,7 @@ export default class FormularioPesquisaEndereco extends Component{
     constructor(props){
         super(props);
 
-        this.ufs = ["RO","AC","AM","RR","PA","AP","TO","MA","PI","CE","RN","PB","PE","AL","SE","BA","MG","ES","RJ","SP","PR","SC","RS","MS","MT","GO","DF"];
+        this.ufs = ["", "SP", "RO","AC","AM","RR","PA","AP","TO","MA","PI","CE","RN","PB","PE","AL","SE","BA","MG","ES","RJ","PR","SC","RS","MS","MT","GO","DF"];
 
         this.state ={
             logradouro:"",
@@ -65,9 +65,9 @@ export default class FormularioPesquisaEndereco extends Component{
                             <label htmlFor="estado">Estado</label>
                         </div>
                     </div>
-                    <div className="col-md">
-                        <button className="btn btn-info btn-lg w-100" type="submit" onClick={(event)=> this.buscarEnderecos(event)}>Buscar</button>
-                    </div>
+                </div>
+                <div className="col-md text-center">
+                    <button className="btn btn-warning btn-lg w-50" type="submit" onClick={(event)=> this.buscarEnderecos(event)}><b>Buscar</b></button>
                 </div>
             </form>
         );

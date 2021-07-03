@@ -1,20 +1,13 @@
-import axios from 'axios';
 import {Component} from 'react';
-import PesquisaEnderecos from './page/pesquisa-enderecos/pesquisa-enderecos';
-
+import AppRouter from './app-router';
 
 
 export default class App extends Component{
 
-  constructor(){
-    super();
-
-  }
-
   render(){
     return(
       <div>
-        <PesquisaEnderecos />
+        <AppRouter />
       </div>
     )
   }
